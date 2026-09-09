@@ -1,3 +1,8 @@
+---
+title: hello world
+tags:
+  - 初心者, HelloWorld
+---
 <!DOCTYPE html>
 <html lang="ja">
     <head>
