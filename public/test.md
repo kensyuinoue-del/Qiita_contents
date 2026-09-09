@@ -2,6 +2,14 @@
 title: hello world
 tags:
   - 初心者, HelloWorld
+private: false
+updated_at: '2026-09-09T10:13:42+09:00'
+id: d28098676aef0409e2d7
+organization_url_name: null
+slide: false
+ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 <!DOCTYPE html>
 <html lang="ja">
