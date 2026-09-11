@@ -12,4 +12,17 @@ ignorePublish: false
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
-# new article body
+# 見出しの記入例
+~~~bash
+#     見出しレベル1
+##    見出しレベル２
+###   見出しレベル３
+####  見出しレベル４
+##### 見出しレベル５
+
+見出しレベル１
+========
+
+見出しレベル２
+--------
+~~~
