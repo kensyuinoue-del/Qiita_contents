@@ -92,6 +92,7 @@ $\color{red}{\large{テキスト}}$に対してMathJax`$\color{red}{\large{テ�
 ## セルの結合
 HTMLを使用することによって結合可能  
 3x4 table
+~~~html:sample
 <table>
   <tr>
     <th>ヘッダー１</th>
@@ -133,4 +134,3 @@ HTMLを使用することによって結合可能
     <td>2</td>
   </tr>
 </table>
-~~~
