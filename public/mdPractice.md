@@ -13,7 +13,7 @@ posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
 # 見出しの記入例
-~~~bash
+~~~
 #     見出しレベル1
 ##    見出しレベル２
 ###   見出しレベル３
