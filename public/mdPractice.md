@@ -50,22 +50,16 @@ agreed_posting_campaign_term: false
 ~~~
 
 ## 下線
-下線を引きたいテキストは`<u></u>`で囲む  
-下線を引きたい<u>テキスト</u>は`<u></u>`で囲む
+下線を引きたいテキストは`<ins></ins>`で囲む  
+下線を引きたい<ins>テキスト</ins>は`<ins></ins>`で囲む
 ~~~
-下線を引きたい<u>テキスト</u>は`<u></u>`で囲む
-~~~
-
-## ハイライト表示
-ハイライトしたいテキストを`<html><mark></mark></html>`で囲む  
-ハイライトしたい<html><mark>テキスト</mark></html>を`<html><mark></mark></html>`で囲む
-~~~
-ハイライトしたい<html><mark>テキスト</mark></html>を`<html><mark></mark></html>`で囲む
+下線を引きたい<ins>テキスト</ins>は`<ins></ins>`で囲む
 ~~~
 
-## 文字の色とサイズ
-テキストに対してタグ(＜font color="red"＞＜/font＞)で指定する  
-<font color="red">テキスト</font>に対してタグ(＜font color="red"＞＜/font＞)で指定する
+## 文字の色とサイズ[^1]
+テキストに対してタグ(＜font color=red＞＜/font＞)で指定する  
+<font color=red size=6>テキスト</font>に対してタグ(＜font color=red＞＜/font＞)で指定する
 ~~~
-<font color="red"><>テキスト</font>に対してタグ(＜font color="red"＞＜/font＞)で指定する
+<font color=red, size=6>テキスト</font>に対してタグ(＜font color=red＞＜/font＞)で指定する
 ~~~
+[^1]:Qiita上ではサイズの変更が不可能
