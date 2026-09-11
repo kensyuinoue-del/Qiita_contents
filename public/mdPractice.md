@@ -112,3 +112,25 @@ HTMLを使用することによって結合可能
     <td>2</td>
   </tr>
 </table>
+~~~
+<table>
+  <tr>
+    <th>ヘッダー１</th>
+    <th colspan=2>ヘッダー２</th>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td rowspan=2>b</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
+~~~
