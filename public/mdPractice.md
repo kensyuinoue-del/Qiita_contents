@@ -70,3 +70,45 @@ $\color{red}{\large{テキスト}}$に対してMathJax`$\color{red}{\large{テ�
 ~~~
 
 [^1]:Qiita上では見出しタグまたはMathJax以外のサイズの変更が不可能
+
+# テーブルの記述
+~~~
+|Left|Center|Right|
+|:---|:----:|----:|
+|This|This|This|
+|column|column|column|
+|is|is|is|
+|left|center|right|
+|aligned|aligned|aligned|
+~~~
+|Left|Center|Right|
+|:---|:----:|----:|
+|This|This|This|
+|column|column|column|
+|is|is|is|
+|left|center|right|
+|aligned|aligned|aligned|
+
+## セルの結合
+HTMLを使用することによって結合可能  
+3x4 table
+<table>
+  <tr>
+    <th>ヘッダー１</th>
+    <th colspan=2>ヘッダー２</th>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td rowspan=2>b</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
