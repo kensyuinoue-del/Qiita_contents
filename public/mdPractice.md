@@ -56,10 +56,17 @@ agreed_posting_campaign_term: false
 下線を引きたい<ins>テキスト</ins>は`<ins></ins>`で囲む
 ~~~
 
-## 文字の色とサイズ[^1]
-テキストに対してタグ`<font color=red></font>`で指定する  
-<font color=red>$\large{テキスト}$</font>に対してタグ`<font color=red></font>`で指定する
+## 文字の色とサイズ
+テキストに対してMathJax`$\color{red}{\large{テキスト}}$`で指定する  
+$\color{red}{\large{テキスト}}$に対してMathJax`$\color{red}{\large{テキスト}}$`で指定する[^1]
 ~~~
-<font color=red>テキスト</font>に対してタグ`<font color=red></font>`で指定する
+$\color{red}{\large{テキスト}}$に対してMathJax`$\color{red}{\large{テキスト}}$`で指定する
 ~~~
-[^1]:Qiita上ではサイズの変更が不可能
+### 色だけの変更
+テキストに対してタグ`<font color=red></font>`を使用する  
+<font color=red>テキスト</font>に対してタグ`<font color=red></font>`を使用する
+~~~
+<font color=red>テキスト</font>に対してタグ`<font color=red></font>`を使用する
+~~~
+
+[^1]:Qiita上では見出しタグまたはMathJax以外のサイズの変更が不可能
