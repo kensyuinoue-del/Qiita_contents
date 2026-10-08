@@ -1,12 +1,12 @@
 ---
 title: 非圧縮WAVファイルの構造と読み方
 tags:
-  - WAV
+  - wav
   - 音声
   - バイナリ
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-10-08T11:34:54+09:00'
+id: 1045532e18ecff9fb42b
 organization_url_name: null
 slide: false
 ignorePublish: false
